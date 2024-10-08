@@ -82,27 +82,7 @@ body {
   color: #fad932;
 }
 
-@-webkit-keyframes hueAnimate {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-            filter: hue-rotate(0deg);
-  }
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-            filter: hue-rotate(360deg);
-  }
-}
 
-@keyframes hueAnimate {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-            filter: hue-rotate(0deg);
-  }
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-            filter: hue-rotate(360deg);
-  }
-}
 
 /*header section*/
 .hero_area {
@@ -621,7 +601,7 @@ a:focus {
 
 .gallery_section .gallery_container .gallery_bg {
   position: absolute;
-  width: 100%;
+  width:90%;
   top: 10%;
   margin-left: 0;
   -webkit-transform: rotate(45deg);
@@ -703,7 +683,7 @@ a:focus {
 
 .blog_section .blog_container .blog_bg {
   position: absolute;
-  width: 100%;
+  width:90%;
   top: 10%;
   margin-left: 0;
   -webkit-transform: rotate(-45deg);
@@ -712,7 +692,7 @@ a:focus {
 }
 
 .blog_section .blog_container .blog_bg img {
-  width: 100%;
+  width:100%;
 }
 
 .blog_section .blog_box {
@@ -774,7 +754,7 @@ a:focus {
 
 .client_section .client_container .client_bg {
   position: absolute;
-  width: 100%;
+  width:90%;
   top: 10%;
   margin-left: 0;
   -webkit-transform: rotate(45deg);
